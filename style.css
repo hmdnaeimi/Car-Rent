@@ -79,6 +79,20 @@ header {
 .icons img {
     cursor: pointer;
 }
+.icons .tooltip-title {
+  display: none;
+}
+.icons .notification:hover .tooltip-title,
+.icons .like:hover .tooltip-title,
+.icons .settings:hover .tooltip-title,
+.icons .profile:hover .tooltip-title{
+  display: block;
+  position: absolute;
+  background: #fafafa;
+  padding: 3px 7px;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px 3px rgb(242, 242, 242);
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
